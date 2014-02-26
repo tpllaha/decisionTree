@@ -153,7 +153,6 @@ public:
 		  {
 		    while ( getline (csv,line) )
 		    {
-                cout << line << endl;
 		    	if (line[line.length()-1] == '\n')
 		    		line[line.length()-1] = '\0';
 		    	char* ptr;
